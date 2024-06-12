@@ -7,7 +7,7 @@ Install the `xhost` command on your desktop as well.
 
 # How to build the image
 
-    git clone --depth=1 https://github.com/nwildner/retropie-docker.git
+    git clone --depth=1 https://github.com/xMugi/retropie-docker.git
     cd retropie-docker
     docker build -t retropie-docker .
 
