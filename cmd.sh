@@ -1,4 +1,7 @@
 #!/bin/bash
+mkdir /home/$(whoami)/RetroPie
+mkdir /home/$(whoami)/RetroPie/roms
+mkdir /home/$(whoami)/RetroPie/BIOS
 xhost local:docker
 docker run -it --rm -e XDG_RUNTIME_DIR  -e DBUS_SESSION_BUS_ADDRESS \
 	-e DISPLAY=unix$DISPLAY \
